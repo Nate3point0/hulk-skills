@@ -1,0 +1,75 @@
+TITLE: How to create a course using systeme.io
+URL: https://help.systeme.io/article/164-how-to-create-a-course-using-systemeio
+CATEGORY: Courses
+============================================================
+
+How to create a course using systeme.io
+In this article, you will learn how to create your own membership site using
+systeme.io
+.
+Here's how it works!
+In the menu, go to Assets and then click on
+Courses
+(1).
+Then click
+Add a new course
+(2) button to be able to create a new course.
+Fill in the fields below
+:
+Name (3)
+Domain (4)
+URL path (5)
+Choose one of the available themes (6)
+Then, click
+Save
+(7) for the settings to be saved.
+Note:
+You can modify this information later. Learn how in our guide:
+How to modify the information of a course
+.
+Create a course module
+Now that you have your course created, it's time to create a module.
+To do so, click on the
+Add module
+(8).
+Enter a
+name
+(9) for the module in the popup window, then click
+Save
+(10).
+Create a lecture
+Inside your module, click the
+Add lecture
+(11).
+Insert the following information in the popup that appears:
+The name of the lecture (12)
+A delay after the previous lecture (13)
+Check
+Enable comments
+(4) if you want to allow students to comment on this lecture.
+Choose one of the page templates from those available (15)
+Click on
+Save
+(16) to finalize the creation of a lecture.
+Once you finish creating your modules and lectures, make sure to activate them. Learn more about how to activate a lecture
+here
+. (Same process for the course).
+You can also drag and drop different lectures across different modules.
+IMPORTANT:
+The delay after the previous lecture allows you to control when the student will access the modules or lectures in a drip content access.
+Here is the difference between the four types of access:
+Full
+access:
+This means that your clients will have access to all the lectures of your different modules instantly. Even if you have set a delay between lectures, this delay will not be applied.
+Drip content:
+This means that your clients will access your lectures progressively, according to the delay you have defined.
+Partial access:
+This means that your clients will only have access to a part of your course, i.e., to specific modules selected in advance by the instructor.
+Partial access with drip:
+This means that your clients will only have access to specific modules you select, and the lectures within them will unlock progressively according to the delay you have defined.
+To learn more about the difference between the different types of access, we recommend reading the article on this subject by
+clicking here
+.
+Note
+: The 'Delay after previous lecture' setting is relative to the previous lecture, not the start of the course.
+For example, if you set the delay to 7 days, this lecture will unlock 7 days after the student gains access to the previous one.

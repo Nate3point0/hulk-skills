@@ -1,0 +1,92 @@
+TITLE: How to integrate PayPal with systeme.io
+URL: https://help.systeme.io/article/132-paypal-integration
+CATEGORY: Payments
+============================================================
+
+How to integrate PayPal with systeme.io
+In this article, you will learn how to integrate your PayPal account with your systeme.io account.
+You will need:
+A
+systeme.io
+account
+A
+PayPal
+Business account (
+sign up for a PayPal Business account or convert an existing Personal account to a Business account; it’s free
+)
+To connect your PayPal account with systeme.io, go to your
+profile picture
+and click
+Settings (1)
+.
+From the settings menu on the left, click on
+Payment gateways
+(2) and click
+Connect
+(3) for the PayPal option.
+Click
+Connect
+. A new tab will open, prompting you to log in to PayPal. Enter your email address and password.
+If you have two-factor authentication (2FA) enabled on your PayPal account, you will be asked to verify your identity by entering a security code sent to your phone or email.
+Once logged in, PayPal will display a permission screen asking you to authorize systeme.io to connect to your account. Click the
+Allow
+button to grant permission
+After you grant permission, PayPal will confirm that the connection is ready. Click on
+Return to systeme.io
+to go back to your systeme.io account.
+This process may take a few seconds. Once complete, you will see your
+PayPal Merchant ID.
+Your PayPal account is now fully integrated with systeme.io and ready to process payments!
+Note:
+To process payments through PayPal, you need to add the
+email
+(1),
+first name
+(2), and
+last name
+(3) fields to all of your order forms
+If any of these fields are missing from an order form, you must add them.
+Step 2: Configuring PayPal IPNs to receive notifications in systeme.io
+What are Instant Payment Notifications (IPN)?
+PayPal Instant Notifications allow systeme.io to receive automatic updates on the status of your payments. To learn more about this topic, please read the following guide:
+How to Activate IPN in your PayPal Account
+You'll need to configure the IPN settings in your PayPal account to receive these notifications.
+Activating notifications
+Sign in to your PayPal account, click on the profile icon, and then click on
+Account settings
+to display your account settings in the panel on the left.
+Scroll down and click
+Notifications
+, and then on
+Update
+in the
+Instant payment notification
+section.
+Click on
+Choose IPN settings
+.
+In the
+Notification URL
+field, enter "
+https://systeme.io/payment/webhook/listening-paypal
+".
+For the
+IPN Messages
+field, select the
+Receive IPN messages (Enabled)
+option.
+Click
+Save
+to save the changes.
+After clicking
+Save
+, you will be redirected to a window that confirms that the payment notifications have been activated successfully.
+Note:
+When your account is being verified, or when you have a restricted account due to PayPal verification, you may receive one of the following error messages:
+PayPal keys are incorrect.
+"Can not set up integration with PayPal. PP returned error #10002: Account is restricted".
+If this occurs, we recommend that you contact PayPal support to receive guidance on how to resolve the restriction on your account.
+Note:
+To process payments through the payment gateway, the
+email
+field must be part of the order form.

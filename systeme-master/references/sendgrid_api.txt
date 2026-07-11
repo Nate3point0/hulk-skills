@@ -1,0 +1,54 @@
+TITLE: How to generate a SendGrid API key and add it to systeme.io
+URL: https://help.systeme.io/article/134-how-to-generate-api-key-from-sendgrid
+CATEGORY: Emails
+============================================================
+
+How to generate a SendGrid API key and add it to systeme.io
+This guide shows you how to generate an API key in SendGrid and add it to systeme.io.
+What you will need:
+A
+systeme.io
+account
+A SendGrid account
+Step 1: Create the API key in SendGrid
+Log in to your
+SendGrid dashboard
+(1).
+Click
+Settings
+(2) in the left sidebar.
+Select
+API Keys
+(3).
+Click the
+Create API Key
+button (4).
+Give your key a
+Name
+(5) and select
+Full Access
+(6).
+Click
+Create & View
+(7).
+Click the key to copy it to your clipboard (8).
+Important:
+SendGrid will not show this key again. Make sure you copy and save it immediately before clicking
+Done
+(9).
+Step 2:
+Add the key to systeme.io
+Click on your
+profile picture
+and select
+Settings
+(10).
+Go to the
+Emails
+tab (11) in the left menu.
+Check the box for
+"I want to use my own SendGrid API key"
+.
+Paste your key into the field (12) and click
+Save
+(13)

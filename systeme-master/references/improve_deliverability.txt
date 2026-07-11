@@ -1,0 +1,58 @@
+TITLE: How to improve your email deliverability
+URL: https://help.systeme.io/article/157-how-to-improve-your-email-deliverability
+CATEGORY: Deliverability
+============================================================
+
+How to improve your email deliverability
+On this help page, we will give you simple tips on how to improve the deliverability of your emails.
+If you already know the basics of deliverability, we recommend
+this page
+, where we detail the
+best practices for good deliverability
+.
+What is email deliverability?
+The deliverability of an email refers to its
+ability to reach its recipients in their main inbox
+without being filtered or sent to a spam folder.
+The deliverability of email campaigns is a key point for your
+marketing operations
+. It is expressed as an overall deliverability rate (or inbox placement rate).
+Many factors can influence the deliverability of your emails:
+The quality of the sending email address used (using a personalized, authenticated domain name with a good reputation)
+The hygiene of your email address base (contact list)
+The reputation of the IP addresses of the sending servers
+The rate of Spam/Bounced
+The possible presence of Spam words
+To ensure good deliverability, you must pay attention to the following points:
+1. Only send emails to people who have agreed to receive them
+This is the basis for ensuring good deliverability of your emails.
+On systeme.io, it is
+forbidden to import a contact list containing email addresses of contacts who have not authorized you to send them emails.
+It is
+crucial to only send emails to contacts from whom you have received explicit consent
+(it is
+forbidden to import contact lists bought on the Internet
+and scrapped lists).
+Without explicit consent from the contacts you send to, your emails are more likely to be flagged as spam.
+This will greatly affect the deliverability of your emails.
+2. Keep your open rate above 20%.
+It's always nice to have a large email list, but if too many contacts stop opening or clicking on your emails, it can affect their deliverability.
+We recommend that you
+regularly delete inactive contacts
+. This ensures that you only send emails to engaged contacts and will keep your open rates high.
+It is recommended that you aim to keep your email open rate at a minimum of 20%.
+For instance, on a weekly or bi-weekly basis, depending on the volume of emails you send, you may conduct a search for all contacts who have not engaged with your emails
+within the past 3 months and remove them
+.
+(There is a filter to find them on the contacts page of systeme.io,
+click here
+to find out more).
+3. Authenticate the domain name used to send emails
+It is important to use an
+authenticated domain name
+for sending emails to improve the deliverability of your emails.
+The
+receiving servers tend to reject/put in the junk folder
+any emails that are not correctly authenticated.
+We invite you to proceed to the authentication of your domain name following the procedure below:
+How to set up your domain name authentication to improve the deliverability of your emails

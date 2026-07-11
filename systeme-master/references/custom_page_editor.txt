@@ -1,0 +1,84 @@
+TITLE: How to create a custom page using systeme.io
+URL: https://help.systeme.io/article/168-create-a-custom-page-how-systeme-io-editor-w
+CATEGORY: Editor
+============================================================
+
+How to create a custom page using systeme.io
+In this article, you will learn how to create a custom page in
+systeme.io
+.
+You will need:
+A
+systeme.io
+account
+STEP 1: Start by creating a custom sales funnel or any other funnel of your choice
+Go to the
+Sales Funnels
+tab and click on
+Create
+(1) to set up a new sales funnel.
+Then choose
+Custom,
+and click on
+Save
+(2).
+Once you’re in your funnel, click on the
+Add step
+button to create the page for your funnel.
+A popup will appear where you need to enter a name for your page (3) and select the page type (4).
+After filling out the popup and saving, you will have the option to
+select a template
+from the designs offered by
+systeme.io
+and customize it as you wish.
+You can also choose to start from scratch and customize your design using the elements available in the editor.
+STEP 2: Learn how page structure works so you can customize it
+All web pages are made up of three essential components.
+1. Sections:
+These are the main building blocks of your page. You start by adding sections, then place rows (columns) and elements inside them.
+2. Row (column):
+Columns can be placed in different sections of your page; use columns to adjust the layout of each section on the page.
+3.Elements:
+These are the components that will give your page a distinctive appearance. You need to insert the elements you want (video, image, text, etc.) into your columns.
+How to add sections and columns:
+Start with any template or from scratch.
+Drag the
+S
+ection
+element from the toolbar.
+Note
+: You can create as many sections as you want.
+Click the settings
+icon (5)
+to edit the section.
+In its settings, you can:
+Change the
+Background color
+.
+Change the
+Inner background color
+of the section.
+Upload a background image by clicking on
+Upload
+.
+You also have the option to choose the display mode of the image.
+When you add a section, it automatically includes a row and a column inside.
+Add columns by dragging the
+Column
+element inside the sections.
+Add elements:
+You can add as many elements as you want by dragging the element of your choice into your page editor.
+For example, here we will add text and an image inside the columns.
+Many other elements are also available!
+Advanced customization tools:
+Text adjustments:
+You can adjust your text typography, color, size and position, etc. By clicking on its settings icon.
+Note
+: To access advanced customization tools for any element, simply click on the settings icon
+How to reset element settings
+If you’ve made changes to an element’s style and want to revert them, you can use the Reset button. This option is available for specific settings such as typography, colors, or size and position.
+To reset a setting, click on the element you want to edit to open its settings in the sidebar, and select the specific setting you wish to revert (e.g., "Typography" or "Color").
+Click the
+Reset icon
+(circular arrow) that appears next to the setting name.
+Result after resetting the color settings:

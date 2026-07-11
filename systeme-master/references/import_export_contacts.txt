@@ -1,0 +1,66 @@
+TITLE: How to import or export a contact list
+URL: https://help.systeme.io/article/238-how-to-import-or-export-a-contact-list
+CATEGORY: Contact Management
+============================================================
+
+How to import or export a contact list
+In this article, you will learn how to import or export a contact file in
+systeme.io
+.
+To get started, you will need:
+A
+systeme.io
+account.
+An email list saved in CSV format.
+Importing an email list:
+Begin by converting your Excel file into CSV format. Open your contact list file in Excel and click
+File
+(1).
+Click
+Save as
+and select the desired separator (e.g., Comma) (2).
+Click
+Save
+(3) to finalize the process.
+Importing the CSV file
+Once you have saved your file, log in to your
+systeme.io
+account to import the contacts:
+Go to
+Contacts
+(4) in the
+CRM
+tab, then click
+Import contacts
+(5).
+Head to
+Select CSV delimiter
+(6) to specify the delimiter used in your CSV file (Comma, semicolon, or pipe), and click the box labeled:
+Click to select the CSV file that contains your contacts
+(7) to upload your file.
+You can select the tag you want to assign to these contacts (8), then click
+Next
+(9)
+.
+You can also subscribe your contacts to a campaign.
+For more information on this subject, check out this article:
+How to subscribe contacts to a campaign when importing a contact list
+Selecting column data:
+After clicking on next, a pop-up will appear where you can choose the data type of each column, such as Email, First name, and any other relevant column from your file.
+Finally, click
+Import
+to begin the import process.
+IMPORTANT:
+The list of contacts that will be imported must only contain the email addresses of contacts who have given their explicit consent to receive your emails.
+2) Exporting an email list
+Navigate to the CRM tab, then click
+Contact
+to display the contact list.
+Select the contacts you want to export (11), then click
+More actions
+(12). From the list of actions, click
+Export
+(13).
+After clicking
+Export
+, a CSV file containing your selected contacts will be generated and sent to the email address associated with your systeme.io account.

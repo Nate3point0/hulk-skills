@@ -1,0 +1,36 @@
+TITLE: How to add an image to a page
+URL: https://help.systeme.io/article/341-how-to-add-an-image-on-a-page
+CATEGORY: Editor
+============================================================
+
+How to add an image to a page
+In this article, you will learn how to add an image to a page.
+To get started, you will need:
+A
+systeme.io
+account
+A page in edit mode
+Adding an image
+In the page editor, drag and drop the
+Image
+element (1) from the panel on the left onto your page.
+Click the settings icon (2), then click the upload icon (3) to open the file selection popup.
+Select the
+Upload
+tab (4) to add a new image from your computer, or choose the
+Your images
+tab (5) to use a previously uploaded one.
+You can also check the box to
+Optimize uploaded images
+(6). This automatically compresses your files to improve page loading speed, with no noticeable loss in quality.
+Add the image to your page by clicking
+Insert
+(6).
+Making the image clickable
+Click on the image to display its settings in the panel on the left. Select
+Open URL
+from the
+Action when image clicked
+dropdown (7), then paste your URL into the
+Link
+field (8).

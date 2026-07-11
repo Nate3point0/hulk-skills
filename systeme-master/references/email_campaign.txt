@@ -1,0 +1,139 @@
+TITLE: How to set up an email campaign
+URL: https://help.systeme.io/article/367-how-to-set-up-an-email-campaign
+CATEGORY: Emails
+============================================================
+
+How to set up an email campaign
+In this article, you will learn how to set up an email campaign.
+Creating a campaign
+Navigate to the
+Campaigns
+section under the
+Emails
+tab (1).
+Click
+Create
+(2), then, in the
+Create campaign
+popup that appears, add a name, choose a sender email address, and add a description for the campaign.
+Finally, click
+Save
+to complete the campaign creation process (3).
+A notification will appear once your campaign has been created successfully.
+Creating campaign emails
+First, access your campaign by clicking on its name, then click the
+Create
+button to create the first email of your campaign (4).
+In the pop-up that appears, fill in the following email details:
+Subject
+Sender name
+Sender email address
+Editor type (Classic editor or Visual editor)
+Then click
+Save
+(5).
+You have two options to edit your emails:
+A classic editor to write a simple email, and a new visual editor with additional features to improve your email's style and layout.
+Note:
+If you change editors while working on an email, the content you have been working on will be lost.
+1. Classic editor
+Once inside the editor, you can change the information you added in the first step.
+In the panel located on the right side of the editor, you can:
+Add an attachment
+Add substitute variables to replace information automatically
+Note:
+You can turn these variables into clickable links by highlighting the link anchor (the text), clicking on
+Create a link
+in the editor toolbar, and then pasting the variable into the URL field.
+Configuring sending delays:
+This email will be sent after
+Delay before sending email
+Times when email should be sent
+Days of the week when this email should be sent
+Note:
+For an email from a campaign to be sent, all the delays you have configured must be met.
+Saving and testing your email campaign
+Once the email campaign is completed and configured, you can:
+Save:
+to save your email campaign
+Save and test:
+to save your email campaign and receive a test email
+Exit
+: to exit your email campaign
+2. Visual editor
+The visual editor is similar to the funnel page editor and provides a drag-and-drop canvas to visually add elements and structure the layout. As with the funnel page editor, you can add content elements such as images, text, and buttons. Additionally, you can lay out the content using sections and columns.
+Note:
+As with the page editor, you can click on any element to edit it.
+Configuring elements
+As with the page editor, clicking on any element allows you to configure its options.
+Go to the
+S
+ettings
+to adjust the font size and set background colors, content, or links.
+You can also increase or decrease the width of your content area.
+Finally, you have the option to optimize your email for mobile devices by clicking on the phone icon.
+You can also control the visibility of specific elements in your emails to ensure your layout looks perfect on both desktop and mobile screens.
+Click on any element (e.g., an image, text block, or signature) inside the editor to open its settings. In the left panel, scroll down to the section and check the box next to
+Desktop
+,
+Mobile,
+or both, depending on where you want the element to appear.
+If an element is set to appear only on desktop or mobile, a label will appear on the element to indicate where it is visible.
+After you have completed your email content, it is necessary to save the changes and then click on
+Exit
+and go to the next step.
+Note:
+When writing your emails in either the classic or visual editor, you can choose from various fonts in the text toolbar. You'll notice two specific options:
+Mailbox Default:
+Displays your text using the recipient's email provider's default font.
+Adaptive:
+Automatically applies the best available system font on the recipient's device (e.g., Apple system font for iOS/Mac, Segoe UI for Windows, or Roboto for Android). This ensures optimal readability, faster loading, and a consistent, professional look across all environments.
+Configuring sending delays
+After returning to the email, click on
+Save
+and configure your email's sending delays.
+After making your changes, click
+Save and test
+to receive a test email, allowing you to preview its appearance. Once satisfied, save the changes and proceed to prepare for sending.
+Example campaign
+Below is an example of a campaign configuration with 5 emails, each having distinct delays before sending:
+Mail 1 is configured to be sent
+one hour after
+a contact is registered to the campaign, specifically at 7 pm, and on a
+Sunday
+only
+Mail 2 is configured to be sent at
+7:00 am
+and
+one hour after
+the first mail.
+Mail 3 is configured to be sent at
+8:00 am
+,
+one day after
+the second mail, and on a
+Friday
+only
+Mail 4 is configured to be sent at
+8:00 pm
+and on
+Thursday
+only
+Mail 5 is configured to be sent at
+6:00 am
+and
+15 hours after
+the fourth mail
+If a contact signs up on Saturday, January 01 at 11:00 am, they will receive:
+The first email on Jan 02 at 7:00 pm
+The second email on Jan 03 at 7:00 am
+The third email on Friday, Jan 07 at 8:00 am, since only at this time all conditions are met (the 3 conditions)
+The fourth email on Thursday, Jan 13 at 8:00 am
+The fifth email on Wednesday, Jan 15 at 6:00 am, because on Jan 14 at 6:00 am, the condition of 15 hours after the fourth email will not yet be met
+Conclusion: For an email from a campaign to be sent, it is imperative that all conditions are met.
+(We recommend avoiding setting up several delays at the same time to avoid confusion).
+Notes
+The order of emails in a campaign is sequential from top to bottom; therefore, if an email is at the top, it means that it will be sent first, except for new emails you have created for your campaign. Indeed, when adding a new email to a campaign and it is not activated (it remains grayed out), it appears at the top of the list of emails in the campaign because it has not yet been activated and therefore configured to be sent.
+When you add a new email to your email campaign, if it is configured to be in the first position or in the middle, please note that it will only be sent to contacts who have not yet reached that step. Contacts who have already passed that step will not receive it.
+A campaign email will not be sent unless all the delays configured for it have been satisfied.
+The elements used in an email, such as text, fonts, font colors, images, emoticons, and layouts, are coded in HTML. When overused, these elements can weigh down an email, compromising its deliverability. Receiving servers may find it difficult to deliver emails that are too heavy, which can lead to them being marked as spam or rejected by anti-spam filters. It is therefore essential to design emails in such a way as to limit their file size, avoiding excessive use of these elements and focusing on light, relevant content to improve deliverability.

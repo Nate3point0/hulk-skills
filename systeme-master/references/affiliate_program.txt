@@ -1,0 +1,145 @@
+TITLE: How to create and configure your own affiliate program
+URL: https://help.systeme.io/article/699-how-to-set-up-your-own-affiliate-program
+CATEGORY: Affiliation
+============================================================
+
+How to create and configure your own affiliate program
+This guide will walk you through the process of creating and configuring your affiliate program.
+To get started, you will need the following:
+A
+systeme.io
+account
+A funnel (
+How to create a new funnel
+)
+An order form page (
+How to create an order form page
+)
+Why create an affiliate program?
+By creating an affiliate program similar to
+the one offered by systeme.io
+, you can reward promoters through commissions in exchange for promoting your products.
+Systeme.io's affiliate program settings
+Systeme.io
+provides a default configuration as the starting point for your affiliate program. These settings are identical to the ones used by
+systeme.io
+in its affiliate program.
+To view these settings:
+Hover over your profile photo
+Click on
+Settings
+Click
+Affiliate Program
+in the left sidebar.
+The configuration provided by default is as follows:
+Default commission (in percentage): 40%
+Minimum payout amount: $30.00 (depending on the country's currency)
+Second-tier affiliate commissions (in percentage): 0
+Default payout delay: 30 (days)
+The conditions for the systeme.io affiliate commission payout are as follows:
+You receive 40% of the sales.
+Commissions are paid after accumulating a minimum of $30.00 (or other currency equivalent).
+They are paid after 30 days from the customer's purchase date.
+There is a 0% commission for the second level.
+Note:
+Commissions are paid (and invoices generated) on the 10th of each month.
+Configuring your affiliate program
+Important notes:
+It is essential to fill in all four fields to validate your affiliate program.
+The
+Minimum amount for payment of affiliate commissions
+and
+second-tier affiliate commissions
+applies immediately to all your order forms.
+Except for the
+Default percentage commissions (%)
+and
+Default payment period for affiliate commissions,
+these settings can be modified for each order form page.
+Modifying the settings from the Affiliate Program configuration section:
+1. Default commissions (%):
+This is the percentage of sales you will pay your affiliates whenever they make a sale promoting your offer.
+For example:
+If you have a product priced at
+$22.50
+(without VAT) and you offer affiliates
+40%
+of sales, the commission they receive will be
+$9.00
+per sale.
+2. Minimum payout amount:
+This setting is used to set a minimum amount to start paying commissions, so you can avoid generating invoices with a low amount. If you set a minimum amount of $50.00, your affiliates must have at least $50.00 pending or more before an invoice is generated, and you can pay them.
+3. Second-tier affiliate commissions (%):
+This setting allows you to set the percentage of commission you want to give to the main affiliate. When your affiliate's referrals make affiliate sales of your offer, the main affiliate will receive their share based on the second-tier commission percentage you set.
+For example:
+In this example, the
+Default commission
+has been set to
+40%,
+and the
+Second-tier affiliate commission
+has been set to
+5%
+.
+If Affiliate A promotes your offer priced at
+$80.83
+and Customer A subscribes to it through Affiliate A's link, Affiliate A will receive a
+40%
+commission (
+$32.33
+).
+Afterward,
+Customer A
+also becomes your affiliate and makes a sale to Customer B for the same offer using their affiliate link. In this case,
+Customer A
+has become
+Affiliate B
+and will earn a
+40%
+commission for the sale to
+Customer B
+(
+$32.33
+).
+Since
+Affiliate A
+referred
+Affiliate B
+, they will get a second-tier commission (5%) of
+$4.40.
+4. Default payout delay:
+This setting allows you to set a delay before each sale can be paid. This usually avoids paying commissions for an offer that has a money-back guarantee. We recommend that users consider this setting to ensure it aligns with their terms and conditions.
+Lifetime affiliation
+This is a lifetime affiliation, and the contacts that are sent by affiliates and their referrals are identified with their affiliate ID in the database. Even if a contact makes a purchase 6 months or a year later, the affiliate will still receive their commission.
+Modifying commission settings from your order form page
+By default, when creating a new order form, an affiliate commission of
+0%
+is applied. If you wish to change this percentage, you need to change the affiliate commission percentage from the order form settings.
+To do this, you need to go to your
+sales funnel
+, then the
+order form configuration.
+Modify the commission amount for a certain product in its order form
+Modify the timeframe for affiliate commission payments for this offer
+After that, your changes will be saved automatically.
+FAQ
+Do I need a
+systeme.io
+subscription to promote the affiliate program?
+No, you don't. Simply
+sign up for free to the affiliate program to receive your affiliate link and access to the affiliate dashboard
+.
+I am a
+systeme.io
+customer and receive affiliate commissions. Will I continue to receive them even if I cancel my subscription?
+Yes, participation in the
+systeme.io
+affiliate program is completely independent of whether you are a
+systeme.io
+customer or not.
+Can we have the contact details of the contacts we have sent with our affiliate link?
+Yes, but this is only possible if the seller checks the box
+"Allow your affiliates to view the email addresses of the leads they've referred"
+in the affiliate program settings.
+Can we have the contact details of the customers who have purchased through our affiliate link?
+The email address may appear in the affiliate dashboard, in the details of each sale.

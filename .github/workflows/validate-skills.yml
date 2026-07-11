@@ -1,0 +1,17 @@
+name: Validate Skills
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Every skill folder must contain SKILL.md
+        run: |
+          fail=0
+          for d in */; do
+            case "$d" in .github/) continue;; esac
+            if [ ! -f "$d/SKILL.md" ]; then
+              echo "MISSING SKILL.md: $d"; fail=1
+            fi
+          done
+          exit $fail

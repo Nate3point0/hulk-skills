@@ -1,0 +1,43 @@
+TITLE: How to set up cash on delivery payment on systeme.io
+URL: https://help.systeme.io/article/2223-how-to-set-up-payment-on-delivery-on-system
+CATEGORY: Payments
+============================================================
+
+How to set up cash on delivery payment on systeme.io
+In this article, you will learn how to provide "cash on delivery" as an option to your customers on your payment pages.
+To offer this option, you need to connect the corresponding payment gateway.
+Configuring the payment gateway
+From your systeme.io account, click on your profile picture and select
+Settings
+(1), then go to
+Payment gateways
+(2).
+In the list of gateways, find
+Cash on delivery
+and click
+Connect
+(3).
+If needed, add any customer instructions (4), then click on
+Save
+(5).
+Note:
+It may take some time for the integration to be completed.
+Activating "Cash on delivery" for your funnel
+In the funnel editor, click on
+Funnel settings
+(6). On the
+Edit funnel
+popup that appears, click the
+Cash on delivery
+payment checkbox (7). Finally, click on
+Save
+to confirm your changes (8).
+After following these steps, customers will now see C.O.D. as a payment option on your sales funnel payment pages.
+Editing the instructions or deleting the integration
+You can edit the instructions by clicking on
+Edit customer instructions
+(9), or delete the integration by clicking the
+trash icon
+(10).
+Note:
+Cash on Delivery is only available for physical products.

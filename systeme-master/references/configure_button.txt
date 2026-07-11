@@ -1,0 +1,54 @@
+TITLE: How to configure a button
+URL: https://help.systeme.io/article/170-how-to-set-up-a-button
+CATEGORY: Editor
+============================================================
+
+How to configure a button
+In this article, you will learn how to configure a button.
+You will need:
+A
+systeme.io
+account
+A page in edit mode
+Adding a button to the page
+Drag and drop the
+Button
+element (1) from the panel on the left onto the page.
+Click on the
+Settings
+icon (2) to display the button settings in the panel on the left.
+When configuring a button, you must select which action to take when the button is clicked (3).
+Submit form
+Show popup
+Open URL
+Next step URL
+Download file
+Button actions
+1) Submit form
+When a lead submits their details using the form, this action will
+save them as a contact
+and redirect them to the next step in your funnel.
+Note:
+You can add multiple
+Submit form
+buttons to your page, but each one must contain the same fields and will trigger the same automation rules.
+2) Show popup
+This action opens a popup created within the page editor.
+Note:
+You must create a popup on your page before you can select this action, as described in the following article:
+How to create a popup on a page
+.
+3) Open URL
+This action
+redirects to a specific page
+by inserting its URL. You can choose to open the link in the same tab or in a new one.
+4) Next step URL
+This action takes the user to the
+next step
+in your funnel.
+5) Download file
+This action allows the user to
+download a file
+. To select a file, click the
+Upload
+icon.

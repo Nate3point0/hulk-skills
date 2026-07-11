@@ -1,0 +1,53 @@
+TITLE: How to define your domain's homepage
+URL: https://help.systeme.io/article/143-how-to-define-a-blog-or-a-page-created-with-
+CATEGORY: General
+============================================================
+
+How to define your domain's homepage
+In this article, you will learn how to point your domain name's homepage to a blog, a website, a creator store, or a sales funnel page created with
+systeme.io.
+What you will need:
+A
+systeme.io
+account
+A blog, a website, a sales funnel, or a creator store
+A domain name
+1) For the blog:
+Go to the
+Sites
+tab on your menu, click on
+Blogs
+(1).
+Click on the 3 dots, then on
+Settings
+(2).
+Delete the text from the URL path field (leave the field empty) and click on
+Save
+(3).
+2) For a sales funnel page:
+Go to the sales funnel page to set as your homepage and delete the text from the URL path field (leave the field empty).
+After updating the path, it will be saved automatically.
+3) For a website:
+Go to the
+Sites
+tab on your menu, click on
+Websites
+(1).
+Click on the 3 dots, then on
+Settings
+(2).
+Delete the text from the URL path field (leave the field empty) and click on
+Save
+(3).
+4) For a creator store:
+Go to the
+Sites
+tab on your menu, click on
+Creator stores
+(1).
+Click on the 3 dots, then on
+Settings
+(2).
+Delete the text from the URL path field (leave the field empty) and click on
+Save
+at the bottom of the page.

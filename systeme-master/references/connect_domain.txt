@@ -1,0 +1,110 @@
+TITLE: How to connect your domain to systeme.io
+URL: https://help.systeme.io/article/135-how-to-connect-your-domain-to-systemeio
+CATEGORY: General
+============================================================
+
+How to connect your domain to systeme.io
+In this article, you will learn how to integrate your root domain to
+systeme.io
+.
+You will need:
+A domain registered outside of
+systeme.io
+A
+systeme.io
+account
+Notes
+:
+A domain name can only be used for one website. If the root domain name you intend to integrate with systeme.io is already assigned to an external website, it will no longer be available once it is added to systeme.io
+These guides are intended to connect your root domain
+(example: www.domain.com)
+with
+systeme.io
+. If you want to use a subdomain instead, please click
+here.
+Step 1: On your systeme.io account
+1.1. Click on your profile picture, then click on
+Settings
+(1), and click on
+Custom Domain
+(2).
+Then click on
+Add domain
+(3).
+1.2. In the popup that appears, enter your domain name starting with
+www (www.
+domain-name.com),
+then click
+Save
+(4).
+1.3. Once the domain is added and saved, A new popup will display two CNAME records. You must add these to your host's DNS settings to connect your domain.
+Step 2: On your web hosting platform
+Once logged into your hosting provider account, add the CNAMEs shown in the popup.
+Using the list below, click on your domain registrar and follow the instructions given on how to create your CNAME record:
+GoDaddy
+OVH
+Cloudflare
+Infomaniak
+IONOS
+Namecheap
+Notes:
+Regarding other web hosting services, contact their support team if you are unable to locate your DNS settings.
+Some domain hosts (like Hover.com) don’t accept dots at the end of DNS record values. If your domain keeps losing its “Ready to use” status or you experience connection issues, this could be the reason. You can also contact your domain host to confirm if this applies to your DNS settings.
+Now, once you are with your web hosting provider, you need to follow the general instructions below:
+2.1. Go to your DNS zone to create new CNAMEs.
+2.2. Create two new CNAME records in your DNS zone using the values displayed in systeme.io:
+First CNAME:
+Name (Host):
+www
+Target (Value):
+dekiiavicthi9.cloudfront.net.
+Second CNAME:
+Name (Host):
+_1f8c79f78f96a2a138cfe8561bdd4c64
+Target (Value):
+_e24285f43fa983395eba535130a6ecaa.nhsllhhtvj.acm-validations.aws.
+(
+The records
+above are
+examples;
+you must add
+your own values)
+.
+Here is an image of the elements you need to add to your DNS zone:
+2.3 Once the two CNAMEs are added to your host, you can check your DNS records to confirm changes using this website:
+https://dnschecker.org
+The indicators should all be green, like the example below. If not, the records have not been entered correctly. You need to review your DNS:
+Notes:
+It can take between
+24 and 48 hours
+for the DNS Records to fully propagate.
+Sometimes your host may not be able to record your CNAMEs due to a conflict with another DNS.  At this point, you should contact your hosting provider to identify what the conflicting record is for and ask if it is safe to remove it.
+Once you have completed this second step, you need to move on to the redirection of your domain name.
+Step 3: Redirection
+This step depends on the hosting service provider you use.
+If you use Hostinger, then
+follow step 3.1
+If you use any other DNS hosting provider,
+follow step 3.2
+Step 3.1 Create an ALIAS record with root (Hostinger)
+If you use the Hostinger hosting service provider, then you need to create an ALIAS record from the root to the same destination you used with the "www" CNAME record:
+Here is an example:
+Step 3.2 Create a redirection (other DNS hosting providers)
+From within your domain host:
+Click on
+"redirection/forwarding"
+Click
+"add redirection"
+Create a redirection from
+domain.com
+to
+www.domain.com
+Important notes:
+It can take a few hours for the domain to be approved.
+It can take up to 24-48 hours for DNS Records to fully propagate.
+The redirection usually only works with HTTP, or if you do not mention the protocol in the URL.
+Most domain registrars only support forwarding for HTTP addresses, not HTTPS. If you need HTTPS redirection, we recommend migrating to a provider that supports CNAME flattening (like Cloudflare) or root-level CNAMEs (like Namecheap).
+Note:
+Once you've completed the integration of your domain name on systeme.io, it's essential to define a home page, so that your site can work when a visitor lands on it. I recommend that you consult the article
+How to define your domain's homepage
+to find out more about this.

@@ -1,0 +1,57 @@
+TITLE: How to use systeme.io's public API
+URL: https://help.systeme.io/article/2329-how-to-use-systeme-io-public-api
+CATEGORY: General
+============================================================
+
+How to use systeme.io's public API
+Our public API feature is now available, and it marks a major turning point for our platform, opening up new opportunities for our users, partners, and developers.
+What is an API?
+The acronym API stands for
+"A
+pplication
+P
+rogramming
+I
+nterface
+"
+, a series of instructions by which a platform offers services to other platforms. It's a strategic gateway for external developers, enabling them to access specific functionality or data from a platform in a structured, secure way. It's like a set of ready-to-use tools that make it easy to build new applications, services, or combinations.
+In short,
+systeme.io
+opens up to other platforms to offer its services where it has added value.
+How does our public API work?
+Our API exposes a carefully selected set of features, enabling developers to interact with our platform transparently and efficiently. If you'd like to know more about how it works, you can
+read our API documentation
+.
+What can you do with our API?
+Our API opens up some interesting possibilities. You will find some examples of uses for our public API application below:
+1.
+Contact and tag management:
+Create and update contacts:
+for creating new contacts or updating existing ones.
+Delete contacts:
+for removing contacts that are no longer needed.
+List and retrieve contacts:
+advanced filtering options for listing contacts and retrieving specific contact details.
+Tag operations:
+facilitates creating, assigning, listing, and removing tags from contacts.
+2.
+Subscription operations:
+Retrieve subscription resources:
+allows getting a list of all resources in a subscription from third-party platforms
+Unsubscription:
+cancels a subscription either immediately or at the end of the billing cycle.
+3.
+Triggering automations:
+While the API itself doesn't directly trigger automations, actions performed through the API, such as creating a contact or assigning a tag, can trigger automations defined in
+systeme.io
+.
+These automations can include tasks like enrolling a new contact in a course or adding them to a campaign, enabling users to set up complex, automated workflows that respond to API actions.
+4
+.
+Newsletter management:
+Create and update newsletters:
+allows you to create new newsletter drafts or modify their existing subject lines, preview text, and content.
+List and retrieve newsletters:
+enables you to browse and fetch details for specific existing newsletters.
+Annex:
+API documentation

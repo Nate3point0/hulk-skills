@@ -1,0 +1,77 @@
+TITLE: How to use the systeme.io MCP server (Model Context Protocol)
+URL: https://help.systeme.io/article/9489-how-to-use-systeme-ios-mcp
+CATEGORY: MCP
+============================================================
+
+How to use the systeme.io MCP server (Model Context Protocol)
+The new MCP server feature gives users, partners, and developers a powerful new way to interact with systeme.io using AI tools.
+Note:
+The MCP server currently focuses on
+contact management
+(contacts, tags, and custom fields) and
+newsletter management
+.
+1. What is MCP?
+MCP (Model Context Protocol) is a standard that enables AI assistants (such as ChatGPT or Claude) to connect securely to external platforms.
+With MCP, you can use natural language commands to interact with your systeme.io data. For example, you can ask ChatGPT to find a contact or add a tag just by typing a sentence.
+Our MCP feature currently provides direct access to specific contact-management features, allowing you to use AI to manage your contacts, tags, and contact fields.
+2. How does our MCP server work?
+The systeme.io MCP server allows AI applications to access specific contact-management tools within your account.
+It creates a bridge between:
+The host
+: Your AI tool (e.g., ChatGPT, Claude).
+The server:
+Your systeme.io account.
+Once connected, the AI can execute commands to manage your contacts and tags automatically.
+For technical details, please refer to our official MCP documentation:
+https://developer.systeme.io/docs/mcp-server
+3. How to generate your MCP keys
+To connect an AI tool, you first need to generate a secure MCP key.
+Click on your profile picture and select
+Settings
+(1).
+In the left menu, click
+MCP & API keys
+(2).
+Scroll down to the
+MCP keys
+section and click
+Create
+(3).
+Give your key a name, set an expiration date, and click
+Save
+(4).
+Your key is now ready.
+4. What can you do with our MCP server?
+You can use AI tools to perform the following actions:
+a. Contact management:
+Create and update contacts:
+Add new contacts or update existing ones.
+Delete contacts:
+Remove contacts from your list.
+List and retrieve contacts:
+Use filters to list contacts or fetch specific contact details.
+Manage tags:
+Create, assign, list, and remove tags from contacts.
+Retrieve contact fields (custom fields):
+List available contact fields and their identifiers (slugs) so the AI can correctly fill in and update contact information.
+b. Newsletter management:
+Create and update newsletters:
+Generate new newsletter drafts in seconds or update existing ones (including subject lines, preview text, and email content).
+List and retrieve newsletters:
+Browse through your existing newsletters or find specific ones.
+Note on newsletters:
+Newsletters created via MCP will automatically use the default sender name and email address configured in your account settings (these cannot currently be changed via MCP). Additionally, it is not possible to delete newsletters using MCP tools.
+Notes:
+For security reasons, MCP keys are valid for a maximum of
+90 days
+.
+You can create a maximum of
+two MCP keys
+at a time.
+This is an
+initial release implementation
+and does not yet support the recommended authentication method (OAuth). So you may experience minor stability issues.
+OAuth support
+is currently planned
+. Once released, it will improve security and eliminate the need for key expiration.

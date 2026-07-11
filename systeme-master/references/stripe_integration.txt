@@ -1,0 +1,30 @@
+TITLE: How to connect your Stripe account to systeme.io
+URL: https://help.systeme.io/article/225-how-to-connect-your-stripe-account-to-system
+CATEGORY: Payments
+============================================================
+
+How to connect your Stripe account to systeme.io
+In this article, you will learn how to connect your Stripe account to
+systeme.io
+.
+To get started, you will need:
+A
+systeme.io
+account
+A Stripe account (
+click here to create a Stripe account
+)
+To connect your systeme.io account to your Stripe account, click on your profile picture and then
+Settings
+(1). Next, in the menu on the left side of your page, click
+Payment Gateways
+(2).
+On the payment gateway options page, click on
+Connect
+(3) for the Stripe option.
+You will be redirected to a page where you can log in to your Stripe account or create a new one.
+First, select the country where your business is registered, and the type of business (individual, company, or nonprofit organization).
+On the next screen, verify your personal information. This is required to activate payments on systeme.io.
+Once completed, click Authorize access to this account. You will be redirected back to systeme.io.
+Note:
+For Stripe to work correctly, the Email and First Name fields are required on your payment pages.

@@ -1,0 +1,29 @@
+TITLE: How to link a sales funnel or a page to your external website
+URL: https://help.systeme.io/article/231-how-to-connect-a-sales-funnel-or-a-page-to-y
+CATEGORY: Sales Funnels
+============================================================
+
+How to link a sales funnel or a page to your external website
+This article shows you how to link a systeme.io funnel or page to an external website (e.g., WordPress).
+What you will need:
+A
+systeme.io
+account
+An active sales funnel (learn how to create a new funnel
+here
+)
+1. On your external website, create a link or button that points to a custom URL.
+2. In systeme.io, copy the URL of your funnel or page:
+Click
+Funnels (1)
+in the top menu, then select the target funnel (2).
+Select the first step of the funnel and click the
+copy icon (3)
+next to the URL path.
+To link to a specific step inside the funnel (e.g., the order form), select that step and
+copy its URL (4)
+3. Return to your external website. Open the settings for your link or button and paste the URL you just copied.
+Note:
+To embed a form or popup directly onto your website, please read
+this article
+.

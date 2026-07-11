@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.hulk.kimi-ingest</string>
+
+    <!--
+      Adjust the python path below if your venv location differs.
+      This mirrors the interpreter used by com.hulk.rag-watch
+      (/Volumes/HULK-STORAGE/00-SYSTEM/hulk/.venv/bin/python).
+    -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Volumes/HULK-STORAGE/00-SYSTEM/hulk/.venv/bin/python</string>
+        <string>/Volumes/HULK-STORAGE/00-SYSTEM/PROXY/kimi_ingest_watcher.py</string>
+        <string>--daemon</string>
+    </array>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Volumes/HULK-STORAGE/00-SYSTEM/PROXY/kimi_ingest_watcher.stdout.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Volumes/HULK-STORAGE/00-SYSTEM/PROXY/kimi_ingest_watcher.stderr.log</string>
+
+    <key>WorkingDirectory</key>
+    <string>/Volumes/HULK-STORAGE/00-SYSTEM/PROXY</string>
+</dict>
+</plist>

@@ -1,0 +1,37 @@
+TITLE: What is a two-step order form?
+URL: https://help.systeme.io/article/235-what-is-two-step-order-form
+CATEGORY: Sales Funnels
+============================================================
+
+What is a two-step order form?
+This article explains what a two-step order form is and how to configure it on
+systeme.io
+.
+You will need:
+A
+systeme.io
+account
+A sales funnel
+An order form
+A two-step order form allows customers to submit their contact information before proceeding to the payment details step.
+Using this method, their contact details will be added to your email list, even if they do not finalize their payment.
+Note:
+A two-step order form is a great way to build your contact list.
+If you want to use a two-step order form on your order form page, drag the
+Two-step order form
+element onto your payment page :
+Note:
+Customers who don't complete their purchase will automatically be added to your contact list.
+Adding an automation rule to the first step:
+Because everyone who completes the first step of the form is automatically added to your contact list, you can trigger specific automation rules for them (e.g., assigning a tag).
+To do this, navigate to the Order Form page. Click on
+Automation rules
+(1), followed by
+Add rule
+(2).
+Select
+Funnel step form subscribed
+from the trigger list (3). Finally, choose your desired action.
+To learn more about how automation rules work,
+click here
+.

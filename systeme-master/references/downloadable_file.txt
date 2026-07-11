@@ -1,0 +1,42 @@
+TITLE: How to add a downloadable file
+URL: https://help.systeme.io/article/340-how-to-add-a-downloadable-file
+CATEGORY: Editor
+============================================================
+
+How to add a downloadable file
+In this article, you will learn how to add a downloadable file to a page.
+To get started, you will need the following:
+A
+systeme.io
+account
+A page to edit
+Adding text
+In the page editor, drag the
+Text
+element (1) from the left panel and drop it onto your page.
+Creating a file download link
+Select the text where you want to add a downloadable file, then click the
+link icon
+(2).
+In the popup window, click the
+arrow icon
+next to the link field (3) to upload your file.
+The file manager will open. Drag and drop your file into the box, or click to upload it from your device (4).
+Alternatively, select a file already stored in your systeme.io account (5).
+Once the file uploads, select it and click
+Insert
+(6).
+After inserting the file, click the
+Confirm
+button to
+save the file
+(7).
+Testing the file download
+To check if the file downloads properly, first click
+Save
+(8) at the top right, then click the
+Preview icon
+(9).
+On the preview page, click the
+text link
+(10) to verify that your file downloads correctly.

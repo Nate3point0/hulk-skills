@@ -1,0 +1,109 @@
+TITLE: Is it possible to insert HTML, CSS, or JS code?
+URL: https://help.systeme.io/article/306-is-it-possible-to-insert-html-css-or-js-code
+CATEGORY: Editor
+============================================================
+
+Is it possible to insert HTML, CSS, or JS code?
+In this article, you will learn how to insert HTML, CSS, and JS code on pages created with systeme.io.
+You will need:
+A
+systeme.io
+account
+HTML, CSS, or JS code
+Why add custom code to your pages?
+By adding HTML code to your page, it's possible to add custom style, functionality, and structure to the contents of images, text, links, etc.
+For example:
+To customize the style, you can add
+CSS
+code.
+To add animations to a page or individual elements (for example, when hovering over or clicking a button), add
+JS
+code.
+To add titles or text in general, create tables, parts, and divisions on your page and add
+HTML
+code.
+Important notes:
+When adding custom code to the
+header
+,
+footer
+,
+tracking code
+, or
+Raw HTML
+sections, do not include any of the following tags:
+<head> </head>
+<footer> </footer>
+<html> </html>
+<body> </body>
+When adding a video using an
+iframe
+, no extra tags are required.
+Incorrect:
+<div> 
+    <iframe src="link to your video"></iframe>
+</div>
+Correct:
+<iframe src="link to your video"></iframe>
+1. Adding code to the Tracking Code section:
+To insert Facebook tracking code, go to the sales funnel containing the page where you want to place the code.
+Select the funnel page from the page list on the left and click
+Edit page
+.
+Click
+Settings
+(1), located in the upper left corner, then scroll down to the
+Tracking
+section (2).
+1.1 Code to be inserted in the header section
+In this section, you should paste any code that needs to be within a page's
+<head>
+and
+</head>
+tags.
+1.2 Code to be inserted in the footer section
+In this section, add any code intended for the
+Document Object Model (DOM)
+.
+2. Adding code in the Sales Funnel Settings:
+Some code (like tracking code) must be added to all your funnels.
+To avoid having to repeat the process of pasting the code onto each page of each funnel, you can apply it globally to all funnels automatically.
+To do so, go to your
+Profile picture
+, click
+Settings
+, and then click
+Sales Funnels
+from the items on the left. Paste the tracking code in the
+Tracking code
+text box and click
+Save
+.
+3. Adding a Raw HTML element to the page:
+It's also possible to insert any HTML code directly on a page via the page's editor.
+1. Add the
+Raw HTML
+element by dragging it to the desired part of your page.
+2. Click the element to display its settings (1).
+In the left panel, click
+Edit code
+to display the popup where you can paste your code (2).
+Add the HTML code to the text box (3), then click
+Save
+(4).
+Make sure to
+save
+your changes before exiting. Once the changes are saved, the old version of the page cannot be restored.
+Note:
+Raw HTML does not appear in the Preview mode. It will only be visible on the live page.
+
+============================================================
+CODE BLOCKS:
+
+--- Block 1 ---
+<div> 
+    <iframe src="link to your video"></iframe>
+</div>
+
+--- Block 2 ---
+<iframe src="link to your video"></iframe>

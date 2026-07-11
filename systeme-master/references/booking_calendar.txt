@@ -1,0 +1,60 @@
+TITLE: How to use the booking calendar feature on systeme.io
+URL: https://help.systeme.io/article/3957-how-to-use-the-booking-calendar-feature-on-
+CATEGORY: Booking Calendar
+============================================================
+
+How to use the booking calendar feature on systeme.io
+Introduction:
+In this article, you will learn the general process for using the booking calendar feature on systeme.io.
+With this feature, you can schedule and manage appointments directly from your system.io account, eliminating the need for external platforms like Calendly or YouCanBook.me. It simplifies your scheduling process and keeps all your business activities in one place.
+There are four main phases to setting up a fully functional calendar:
+Phase 1 (optional):
+Setting up your integrations
+Before creating an event, we highly recommend integrating your systeme.io account with Google Calendar, Google Meet, or Zoom. This prevents double-bookings and automatically generates meeting links for your clients. To learn how to integrate these tools, refer to these help articles:
+How to integrate Google Calendar with systeme.io
+How to integrate Google Meet with systeme.io
+How to integrate Zoom with systeme.io
+Phase 2: Creating and setting up your calendar event
+This section covers two key elements:
+1.
+Availability
+When setting up your event, you will define your availability. This determines the specific days, hours, and buffer times you are available for appointments.
+To learn more, refer to this help article:
+How to set the availability of your events
+.
+Events
+These are the various types of sessions you offer (e.g., a "Free Consultation" or a "1-hour Coaching Call"). You need to create at least one event to start accepting appointments.
+To learn more, refer to this help article:
+How to set up your events
+.
+Phase 3: Adding the calendar to a funnel page
+Now that your event exists, you need to make it visible to your customers by adding it to a funnel page. There are two types of bookings available:
+free bookings
+and
+paid bookings
+, depending on whether you want to charge your clients.
+1.
+Free bookings
+To offer free bookings, add your calendar to an opt-in page, sales page, or blog page.
+In the page editor, drag and drop the
+Calendar
+element onto your page, then configure its settings.
+To learn more, refer to this help article:
+How to offer free bookings
+.
+2.
+Paid bookings
+To offer paid bookings, you must add your calendar to an order form/payment page.
+In the page editor, drag and drop the
+Paid calendar
+element onto your page, then configure its settings.
+To learn more, refer to this help article:
+How to sell your bookings
+.
+Phase 4: Managing your bookings
+Once your calendar is live and clients start booking, you can track everything in the
+Bookings
+tab.
+This is where you will see a complete list of all upcoming and past appointments, including who booked, the date, and the time. You can also cancel or reschedule appointments directly from this tab.
+To learn more, refer to this help article:
+How to manage your calendar bookings.

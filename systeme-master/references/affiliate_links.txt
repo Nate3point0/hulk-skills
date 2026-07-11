@@ -1,0 +1,71 @@
+TITLE: How to send your affiliates their links
+URL: https://help.systeme.io/article/212-how-to-send-their-affiliate-links-to-your-af
+CATEGORY: Affiliation
+============================================================
+
+How to send your affiliates their links
+In this article, you will learn how to send affiliate links to your affiliates so they can promote your products.
+You will need:
+A
+systeme.io
+account
+A sales funnel
+In
+systeme.io
+, affiliate links have the following structure:
+https://yourpagelink?sa=AFFILIATEID
+To learn how to set up your
+affiliate program
+with systeme.io,
+read this article
+.
+To promote your offer and earn commissions, each affiliate needs a
+unique link to your page
+.
+Send your affiliates their affiliate links:
+To do this, use the
+{affiliate_id}
+variable  in your email. This will generate the affiliate ID of each contact.
+Example:
+Aurelian wants to send a unique affiliate link to each of his affiliates, enabling them to promote systeme.io.
+The offer link:
+https://systeme.io/
+What to include in the email:
+https://systeme.io/?sa={affiliate_id}
+By including the affiliate ID as part of the email, each affiliate will automatically receive their own affiliate link to promote
+systeme.io
+.
+IMPORTANT
+:
+In order for your affiliates to keep track of the number of contacts and sales they have made, they'll need access to their affiliate dashboard.
+The Affiliate dashboard is only available to users who are registered as affiliates. Student (course) accounts do not have access to the Affiliate Dashboard.
+How to send the affiliate ID and affiliate dashboard link to your affiliates:
+Step 1:
+Create a dedicated opt-in page for your affiliate program with a field to capture email addresses (
+How to create an opt-in page or a pop-up
+)
+IMPORTANT:
+With
+systeme.io
+, an affiliate ID is generated automatically for every contact on your email list, allowing them to promote your affiliate program.
+However, to better identify and communicate with your affiliates, we recommend creating a dedicated opt-in page where they can join your affiliate program. This allows you to tag subscribers with an "
+Affiliate
+" tag automatically.
+Step 2:
+Create an automation rule to automatically send an email whenever a new affiliate subscribes. To modify the email message contents, click on the
+pencil icon.
+Step 3:
+You can include the following variables in your email:
+The
+{affiliate_id}
+variable displays the subscriber's unique affiliate ID.
+The
+{affiliate_dashboard}
+variable to provide access to their affiliate dashboard.
+As part of your email, you can also include an affiliate link to one or several of your offers by following this structure:
+https://yourpagelink?sa={affiliate_id}
+Notes:
+Links to share sales funnels are also affiliate links.
+Click here to find out how to share a sales funnel
+.
+The tracking works on all pages created with systeme.io, including any page that has a form created with systeme.io, such as your website or blog.

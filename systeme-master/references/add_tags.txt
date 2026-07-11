@@ -1,0 +1,37 @@
+TITLE: How to automatically and manually add tags to your contacts
+URL: https://help.systeme.io/article/348-how-to-automatically-and-manually-add-tags-t
+CATEGORY: Contact Management
+============================================================
+
+How to automatically and manually add tags to your contacts
+In this article, you will learn how to automatically and manually add tags to your contacts.
+You will need:
+A
+systeme.io
+account
+A tag (
+How to create a tag
+)
+1) Adding tags automatically:
+To add tags automatically, you'll need to create automation rules to assign tags.
+Learn how to create automation rules
+.
+Alternatively, tags can also be added via the Resources section of your payment page.
+Learn how to create an order form or payment page
+.
+2) Adding tags manually:
+Click on
+Contacts
+(1) in the
+CRM
+menu.
+Select the contact(s) you want to assign the tag to
+(2)
+, then click on
+More actions
+(3) and choose
+Add tag
+(4).
+A popup will appear. Choose the tag you want to assign to your contact (5), then click
+Add tag to contacts
+(6).

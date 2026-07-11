@@ -1,0 +1,80 @@
+TITLE: How to add an order bump to an order form/payment page
+URL: https://help.systeme.io/article/154-how-to-add-an-order-bump-to-a-payment-page
+CATEGORY: Sales Funnels
+============================================================
+
+How to add an order bump to an order form/payment page
+In this article, you will learn how to add an order bump to your order form/payment page.
+To get started, you will need the following:
+A
+systeme.io
+account
+A sales funnel
+A payment page
+Begin by navigating to the payment page where you wish to add the order bump. Next, click on
+Add order bump
+(1).
+New fields will appear for configuring your order bump.
+In the
+Choose offer type
+field, select either
+Physical product
+or
+Digital product
+(2).
+After selecting the offer type for your order form page, you need to include a resource that customers will access after making the payment.
+For digital products, the following resources are available:
+1. Courses:
+After payment validation, your customer will automatically gain access to the course.
+2. Course bundles:
+After payment validation, your customer will have access to a membership course bundle containing several pre-created courses.
+3. Tags:
+Upon payment validation, the tag you specify will be assigned to your customer.
+4. Communities:
+After payment validation, the customer can access a community where they can interact with others who have subscribed to the same offer.
+Note:
+Currently, it is not possible to add a calendar event as a resource for an order bump. If you try to select this, an error message will appear.
+For physical products, you can only select the product you intend to sell.
+Note:
+For physical product delivery, you must handle it externally, as systeme.io does not facilitate this process. If you haven't created a physical product yet, refer to
+this guide
+on how to do so.
+IMPORTANT:
+You also need to add a single price to your order bump,
+click here
+to view the article
+How to create and configure a price plan
+.
+Once you've configured the order bump in your order form settings, access the page editor. Then, simply drag and drop the
+Order bump
+element into the page body to make it visible on your page.
+Note:
+You can also define automation rules to send an email or a campaign after a customer purchases the order bump.
+Follow these steps to create automation rules:
+1. Create a tag that will be assigned to customers who purchase the Order Bump (e.g., example, the tag
+Order Bump
+).
+2. Go to the payment page where the Order Bump is located and select
+Tag
+as a
+Resource
+, then select the tag you wish to assign after purchase (e.g.,
+Order Bump
+).
+With this configuration, anyone who purchases your Order Bump will be assigned the specific tag.
+3. Go to
+Menu > Automations > Rules
+and create automation rules. For example:
+Trigger:
+Select the trigger
+Tag assigned
+and select the tag that will be assigned automatically to customers who purchase the Order bump.
+Action:
+For the action, select the action for your use case, for example,
+Send email
+or
+Campaign
+.
+To learn more about managing automation rules,
+click here
+.

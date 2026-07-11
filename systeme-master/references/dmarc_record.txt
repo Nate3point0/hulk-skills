@@ -1,0 +1,58 @@
+TITLE: How to create a DMARC record
+URL: https://help.systeme.io/article/2241-how-to-create-a-dmarc-record
+CATEGORY: Deliverability
+============================================================
+
+How to create a DMARC record
+In this article, you'll learn how to create a DMARC record for the DMARC policy application of "none".
+What you'll need:
+A custom email address and a domain name
+Access hosting provider DNS settings
+To add a
+DMARC
+record, log in to your domain registrar or hosting provider's dashboard and navigate to the DNS settings.
+Create a DNS entry
+Create a
+DNS
+entry by following these steps:
+1. Create a
+TXT
+record. After starting the record creation process, enter a name and value for the record.
+2. For the name of the record, enter
+" _dmarc "
+.
+Depending on your provider, the domain name will automatically be added to the name, resulting in
+"_dmarc.yourdomain.com "
+.
+If the domain name is not automatically added at the end, you should then name the record
+"_dmarc.yourdomain.com "
+instead of just
+" _dmarc "
+.
+3. Enter the value of your record. Here's an example value for DMARC:
+v=DMARC1; p=none; rua=mailto:youraddress@yourdomain.com
+For example:
+If your email address is
+"example@example.com"
+, you need to add the value
+"v=DMARC1; p=none; rua=mailto:example@example.com".
+Notes:
+1. Adding a DMARC record generates a daily report sent by email providers. These DMARC reports are sent to the email address you set to the value
+"rua"
+when adding the DMARC record.
+To avoid flooding your main inbox, we recommend creating a dedicated email address specifically for these reports. All you need to do is set up the notification email on the
+"rua=mailto:example@example.com"
+part when adding the DMARC record.
+2. DMARC reports are sent in raw form. To find out how to interpret them, please
+click here
+. If you need further help in understanding your DMARC reports, you can contact our support team from
+here
+.
+3. Once you have created the DMARC record, you can verify that it has been added correctly by visiting the website "
+https://mxtoolbox.com/dmarc.aspx
+". Enter your domain name and click
+"DMARC Lookup"
+. The website will display a list of your DNS records, including your DMARC record:
+Notes:
+Adding a DMARC record helps to ensure that all legitimate emails from your domain are authenticated correctly by receiving email servers.
+You will receive DMARC reports to help you ensure that all legitimate emails are identified and pass authentication.
